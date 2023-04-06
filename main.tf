@@ -1,5 +1,5 @@
 module "file_cache" {
-  source = "git::https://github.com/plus3it/terraform-external-file-cache.git?ref=2.1.1"
+  source = "git::https://github.com/plus3it/terraform-external-file-cache.git?ref=2.1.2"
 
   python_cmd = var.python_cmd
   uris       = keys(var.uri_map)
